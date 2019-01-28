@@ -28,15 +28,18 @@ Download the workflow and then use the Workflow Manager workflow Import function
 
 ### Usage
 The workflow can be initiated either via the WFM GUI or via the workflow management REST API The following parameters must be supplied
-    
+
+```
    "token_auth": The REST API Bearer token e.g. "YWRtaW46Tm9raWFOc3AxIQ=="
    "rest_gateway_host":  The IP address of the NSP REST gateway e.g.  "135.121.148.173"
    "ne1": The system address of the target node e.g. "92.168.96.39"
    "port1": The source port to copy e.g. "1/1/4"
    "port2": The destination port e.g. "1/1/2"
+```
 
 Additionally, the workflow may be initiated via the workflow management REST API
 
+```
 POST /wfm/api/v1/execution HTTP/1.1
 
 {
@@ -51,6 +54,7 @@ POST /wfm/api/v1/execution HTTP/1.1
     "params": {},
     "output": {}
 }
+```
 
 ### License
 This project is licensed under the BSD-3 Clause License. See
