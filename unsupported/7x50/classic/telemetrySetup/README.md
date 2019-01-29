@@ -5,9 +5,10 @@
 ### Description
 This workflow will generate all the certificates required to enable the
 telemetry API (using gRPC over TLS) on a Nokia SR OS device. The certificates
-will be copied to the node along along the necessary configuration to enable
+will be copied to the node along with the necessary configuration to enable
 gNMI. If the node has physical port 1/1/1 configured, the workflow will enable
-a 2 minute collection of telemetry data.
+a 2 minute collection of telemetry data. The workflow initiates CLI sessions to both the 
+REST gateway and the SR.
 
 ### Version
 7x50 Setup Telemetry - version 1.0
