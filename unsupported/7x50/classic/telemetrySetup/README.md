@@ -36,7 +36,7 @@ The following parameters must be supplied
 
 ```
     "token_auth": The REST API Bearer token e.g. "YWRtaW46Tm9raWFOc3AxIQ==",
-    "rest_gateway_host": The IP address of the NSP REST gateway e.g. "135.121.148.11",
+    "rest_gateway_host": The IP address of the NSP REST gateway e.g. "1.2.3.4",
     "rootUser": The user account to run the openssl commands e.g. "root",
     "rootPassword": The password for the rootUser e.g. "NokNsp1!",
     ftpHost: The IP address of the certificate host e.g. '192.168.96.10'
@@ -58,7 +58,7 @@ POST /wfm/api/v1/execution HTTP/1.1
     "workflow_id": "b0ceb995-b126-4798-b1e6-82db9bcfc9f7",
     "input": {
         "token_auth": "YWRtaW46Tm9raWFOc3AxIQ==",
-        "rest_gateway_host": "135.121.148.11",
+        "rest_gateway_host": "1.2.3.4",
         "rootUser": "root",
         "rootPassword": "NokNsp1!",
         "ftpHost": "192.168.96.10",
