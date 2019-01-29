@@ -32,7 +32,7 @@ The following parameters must be supplied
 
 ```
     "token_auth": The REST API Bearer token e.g."YWRtaW46Tm9raWFOc3AxIQ==",
-    "rest_gateway_host": The IP address of the NSP REST gateway e.g.  "135.121.148.255",
+    "rest_gateway_host": The IP address of the NSP REST gateway e.g.  "1.2.3.4",
     "ne1": The system address of the source node e.g. "11.11.11.11",
     "ne2": The system address of the destination node e.g. "33.33.33.33",
     "ne1port": The source port e.g. "1/1/12",
@@ -48,7 +48,7 @@ POST /wfm/api/v1/execution HTTP/1.1
     "workflow_id": "b0ceb995-b126-4798-b1e6-82db9bcfc9f7",
     "input": {
        "token_auth": "YWRtaW46Tm9raWFOc3AxIQ==",
-       "rest_gateway_host": "135.121.148.255",
+       "rest_gateway_host": "1.2.3.4",
        "ne1": "11.11.11.11",
        "ne2": "33.33.33.33",
        "ne1port": "1/1/12",
