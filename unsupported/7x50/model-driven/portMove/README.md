@@ -4,7 +4,7 @@
 
 ### Description
 This workflow will move all L2 and L3 services from one port to another using the MDC RESTCONF API. 
-The destination port will be configured to be an exact replica of the source port.
+The destination port will be configured to be an exact replica of the source port prior to moving the service access points.
 
 ### Version
 MDC Port Move 7x50 - version 1.0
