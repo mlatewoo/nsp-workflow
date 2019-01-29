@@ -17,7 +17,7 @@ Unsupported, use at your own risk!
 |   1.0 |  ML  |2019-01-28|first version|
 
 ### Prerequisites
-Nokia NSP with Workflow Manager
+Nokia NSP with Workflow Manager and Modeled Device Configurator
 
 ### Tested with
 * Nokia NSP 18.12
