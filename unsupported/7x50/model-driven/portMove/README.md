@@ -3,6 +3,7 @@
 ## MDC - Port Move 7x50
 
 ### Description
+This workflow will move all L2 and L3 services from one port to another. The destination port will be configured to be an exact replica of the source port.
 
 ### Version
 MDC Port Move 7x50 - version 1.0
@@ -31,7 +32,7 @@ The workflow can be initiated either via the WFM GUI or via the workflow managem
 
 ```
    "token_auth": The REST API Bearer token e.g. "YWRtaW46Tm9raWFOc3AxIQ=="
-   "rest_gateway_host":  The IP address of the NSP REST gateway e.g.  "135.121.148.173"
+   "rest_gateway_host":  The IP address of the NSP REST gateway e.g.  "1.2.3.4"
    "ne1": The system address of the target node e.g. "92.168.96.39"
    "port1": The source port to copy e.g. "1/1/4"
    "port2": The destination port e.g. "1/1/2"
@@ -46,7 +47,7 @@ POST /wfm/api/v1/execution HTTP/1.1
     "workflow_id": "b0ceb995-b126-4798-b1e6-82db9bcfc9f7",
     "input": {
         "token_auth": "YWRtaW46Tm9raWFOc3AxIQ==",
-        "rest_gateway_host": "135.121.148.173",
+        "rest_gateway_host": "1.2.3.4",
         "ne1": "92.168.96.39",
         "port1": "1/1/2",
         "port2": "1/1/4"
